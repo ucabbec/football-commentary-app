@@ -17,11 +17,12 @@ interface IProps{
 }
 
 const component: React.SFC<IProps> = (props) => {
-    console.log(props);
-    return <div className="container">
-                <Commentary layout={props.layout} commentary={props.commentary} />
-                <KeyEvents userSelectsEvent={props.userSelectsEvent} keyEvent={props.keyEvents} />
-            </div>;
+    return <>
+        <h2 className="title">Arsenal 4 - 2 Tottenham</h2><div className="container">
+            <Commentary layout={props.layout} commentary={props.commentary} />
+            <KeyEvents userSelectsEvent={props.userSelectsEvent} keyEvent={props.keyEvents} />
+        </div>
+    </>;
 }
 
 export default withMatchCommentary(withStore(component));

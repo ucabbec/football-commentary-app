@@ -6,6 +6,9 @@ interface IProps{
     userSelectsEvent: (id: number) => void;
 }
 
+// key events component that maps over the key event data and adds the functionality to update store with
+// the selected id and scrolls to the selected div.
+
 const component: React.SFC<IProps> = (props) => {
     return <div className="key-event-container">
                 {props.keyEvent.map((item: IKeyEvent, index: number) => <a onClick={() => {

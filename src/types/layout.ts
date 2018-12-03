@@ -1,3 +1,5 @@
+// types for bot the commentary objects and the key event objects 
+
 export interface ICommentary {
     index: number;
     time: string;

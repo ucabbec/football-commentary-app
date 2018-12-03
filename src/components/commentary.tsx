@@ -8,6 +8,8 @@ interface IProps{
     }
 }
 
+// comentary component that maps over the commentary data 
+
 const component: React.SFC<IProps> = (props) => {
     return <div className="commentary-container">
                 {props.commentary.map((item: ICommentary, index: number) => <div key={index} >

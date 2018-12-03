@@ -5,6 +5,8 @@ const initialState: Store.Layout = {
 	selectedEvent: 0
 };
 
+// reducer that updates store with selected event
+
 export const reducer = (state: Store.Layout = initialState, action: Action): Store.Layout => {
 	console.log(state)
 	switch(action.type){
