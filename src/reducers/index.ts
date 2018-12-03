@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { reducer as commentaryReducer } from './commentaryReducer'; 
+import { reducer as layoutReducer } from './commentaryReducer'; 
 
 const rootReducer = combineReducers({
-	commentary: commentaryReducer
+	layout: layoutReducer
 });
 
 export default rootReducer;

@@ -3,7 +3,7 @@ import rootReducer from '../reducers';
 
 export namespace Store {
     export type Layout = {
-        selectedEvent?: string
+        selectedEvent?: number
     }
 
     export type All = {

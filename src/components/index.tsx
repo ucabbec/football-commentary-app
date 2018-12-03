@@ -10,13 +10,17 @@ import { ICommentary, IKeyEvent } from '../types';
 interface IProps{
     commentary: ICommentary[];
     keyEvents: IKeyEvent[];
+    userSelectsEvent: (id: number) => void;
+    layout:{
+        selectedEvent?: number;
+    } ;
 }
 
 const component: React.SFC<IProps> = (props) => {
     console.log(props);
     return <div className="container">
-                <Commentary commentary={props.commentary} />
-                <KeyEvents keyEvent={props.keyEvents} />
+                <Commentary layout={props.layout} commentary={props.commentary} />
+                <KeyEvents userSelectsEvent={props.userSelectsEvent} keyEvent={props.keyEvents} />
             </div>;
 }
 

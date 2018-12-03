@@ -1,14 +1,16 @@
 import { Dispatch } from 'redux';
 import { Store } from '../store';
 import { connect } from 'react-redux';
-import { Action } from '../actions';
+import { Action, userSelectsEvent } from '../actions';
 
 const mapStateToProps = (state: Store.All) => ({
-    layout: state.layout
-})
+        layout: state.layout
+    });
 
 const mapDispatchToProps = (dispatch: Dispatch<Action>) => ({
-    userSelectsEvent: (id: string) => console.log(id)
+    userSelectsEvent: (id: number) => {
+        dispatch(userSelectsEvent(id))
+    }
 });
 
 // HOC to pass down redux store and functions to dispatch actions

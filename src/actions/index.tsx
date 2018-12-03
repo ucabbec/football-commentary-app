@@ -1,5 +1,5 @@
-export * from './menu';
+export * from './commentary';
 
-import { MenuAction } from '.';
+import { CommentaryAction } from '.';
 
-export type Action = MenuAction;
+export type Action = CommentaryAction;
