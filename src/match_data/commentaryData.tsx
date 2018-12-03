@@ -8,7 +8,7 @@ export default {
         {
             index: 2,
             time: "90+6",
-            text: "90+6: Foyth almost gives the ball away but Guendouzi can't take advantage. Wonder if Poch regrets starting the youngster ahead of Alderweireld?"
+            text: "Foyth almost gives the ball away but Guendouzi can't take advantage. Wonder if Poch regrets starting the youngster ahead of Alderweireld?"
         },
         {
             index: 3,
@@ -143,7 +143,7 @@ export default {
         {
             index: 29,
             time: '58',
-            text: "58: Superb stuff from Aubameyang. Could he become only the fourth man to score a hat-trick in a north London derby? Arsenal are right back in this and their fans are beckoning them forward."
+            text: "Superb stuff from Aubameyang. Could he become only the fourth man to score a hat-trick in a north London derby? Arsenal are right back in this and their fans are beckoning them forward."
         },
         {
             index: 30,
@@ -338,40 +338,46 @@ export default {
     ],
     keyEvents:[
         {
+            id: 68,
             event: "RED CARD: Jan Vertonghen",
-            time: 85,
+            time: '85',
             linkedId: 9
         },
         {
+            id: 69,
             event: "GOAL: Arsenal (Torreira)",
-            time: 77,
+            time: '77',
             linkedId: 9
         },
         {
+            id: 70,
             event: "GOAL: Arsenal (Lacazette)",
-            time: 74,
+            time: '74',
             linkedId: 9
         },
         {
+            id: 71,
             event: "GOAL: Arsenal (Aubameyang)",
-            time: 56,
+            time: '56',
             linkedId: 9
         },
         {
+            id: 72,
             event: "GOAL: Tottenham (Kane)",
-            time: 34,
+            time: '34',
             linkedId: 10
         },
         {
+            id: 73,
             event: "GOAL: Tottenham (Dier)",
-            time: 30,
+            time: '30',
             linkedId: 10
         },
         {
+            id: 74,
             event: "GOAL: Arsenal (Aubameyang)",
-            time: 10,
+            time: '10',
             linkedId: 10
         }
     ]
 };
-

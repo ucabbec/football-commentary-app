@@ -1,9 +1,10 @@
 import { compose, withProps } from 'recompose';
 
-const data = [1,2,4];
+import MatchData from '../match_data/commentaryData';
 
-export const withMenuItemsContainer = compose<{}, {}>(
+export const withMatchCommentary = compose<{}, {}>(
     withProps({
-       ...data
+       commentary: MatchData.commentary,
+       keyEvents: MatchData.keyEvents
     })
 );

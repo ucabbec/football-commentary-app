@@ -1,0 +1,27 @@
+.commentary-container{
+    flex: 3;
+
+    .commentary-item{
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+
+        .item-time{
+            margin: 0 1em;
+            width: 4em;
+            height: 4em;
+            border-radius: 50%;
+            line-height: 4em;
+            background-color: black;
+            color: white;
+            border: 3px solid grey;
+            text-align: center;
+        }
+
+        .item-text{
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
