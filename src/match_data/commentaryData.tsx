@@ -347,37 +347,37 @@ export default {
             id: 69,
             event: "GOAL: Arsenal (Torreira)",
             time: '77',
-            linkedId: 9
+            linkedId: 14
         },
         {
             id: 70,
             event: "GOAL: Arsenal (Lacazette)",
             time: '74',
-            linkedId: 9
+            linkedId: 15
         },
         {
             id: 71,
             event: "GOAL: Arsenal (Aubameyang)",
             time: '56',
-            linkedId: 9
+            linkedId: 30
         },
         {
             id: 72,
             event: "GOAL: Tottenham (Kane)",
             time: '34',
-            linkedId: 10
+            linkedId: 48
         },
         {
             id: 73,
             event: "GOAL: Tottenham (Dier)",
             time: '30',
-            linkedId: 10
+            linkedId: 50
         },
         {
             id: 74,
             event: "GOAL: Arsenal (Aubameyang)",
             time: '10',
-            linkedId: 10
+            linkedId: 62
         }
     ]
 };
